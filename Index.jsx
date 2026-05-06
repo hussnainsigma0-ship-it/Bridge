@@ -240,4 +240,20 @@ const EXERCISES = [
     steps:["Inhale for 4 counts","Hold for 4 counts","Exhale for 4 counts","Hold for 4 counts"],
     intro:"Box breathing is used by Navy SEALs and therapists alike. It activates your parasympathetic nervous system, slowing your heart rate and calming anxiety within minutes." },
   { id:"ground", tag:"Grounding", title:"5-4-3-2-1 Senses", desc:"Anchor yourself to the present moment.", duration:"5 min", type:"guided",
-    steps:["Name 5 things you can SEE right now","Name 4 things you can phys
+    steps:["Name 5 things you can SEE right now"
+           {
+  id:"gratitude",
+  tag:"Mindset",
+  title:"Gratitude Reset",
+  desc:"Shift your focus to positive moments and calm your mind.",
+  duration:"5 min",
+  type:"guided",
+  steps:[
+    "Name 3 things you are grateful for today",
+    "Name 2 people who positively impact your life",
+    "Recall 1 recent moment that made you smile",
+    "Take a deep breath and focus on that feeling",
+    "Write one small thing you look forward to"
+  ],
+  intro:"Gratitude exercises are proven to improve mood and reduce stress. By focusing on positive aspects of your life, you gently retrain your brain away from negativity and anxiety."
+           }
